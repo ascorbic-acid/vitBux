@@ -1,12 +1,12 @@
 {
   "name": "vitBux",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
+  "version": "1.0.0",
+  "author": "Imad Abdou",
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "./node_modules/.bin/ng serve --no-open",
+    "build:web:prod": "./node_modules/.bin/ng build --prod && npx cap copy web",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
