@@ -1,0 +1,7 @@
+{
+  "name": "vitBux",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
